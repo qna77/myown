@@ -1,14 +1,15 @@
 import './App.css';
 import React from "react";
 import Tick from './Tick';
+import Button from './Button';
 
 function formatName(user) {
   return user.firstName + ' ' + user.lastName;
 }
 
 const user = {
-  firstName: 'Gracjan',
-  lastName: 'Brzęczyszczykiewicz',
+  firstName: 'Adrian',
+  lastName: '',
 };
 
 const element = (
@@ -34,7 +35,9 @@ function App() {
           rel="noopener noreferrer"
         >
           {element}
+
         </a>
+          <Button />
 
       </header>
     </div>
