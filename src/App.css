@@ -14,17 +14,20 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #0c2860;
+  background-image: url("images/7ZZ57ev.png");
+  text-shadow: 0 0 3px #FF0000;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #eee9e7;
 }
 
 .App-link {
+  text-shadow: 0 0 3px #000000;
   color: #61dafb;
 }
 
